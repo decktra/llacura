@@ -15,6 +15,7 @@ URL:            https://themeforest.net/user/ThemeMascot
 @import url(icomoon.css);
 @import url(flaticon-set-current-theme.css);
 @import url("https://fonts.googleapis.com/css?family=Open Sans:300,400,500,600,700,800|Poppins:400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 /*
 This file contains the common styles of this theme.
 */
@@ -251,6 +252,9 @@ p {
   p a:hover, p a:focus {
     text-decoration: underline; }
 
+.satisfy-font {
+  font-family: 'Satisfy', cursive;
+}
 .wp-block-quote {
   margin: 20px 0; }
 
@@ -13325,7 +13329,7 @@ body.tm-dark-layout .tm-sc-pricing-table {
           .tm-sc-section-title .title-wrapper .title .title-shadow-text {
             font-size: 4rem;
             top: -20px; } }
-      .tm-sc-section-title .title-wrapper .title span {
+      .tm-sc-section-title .title-wrapper .title span {        
         line-height: 1; }
     .tm-sc-section-title .title-wrapper .subtitle {
       position: relative;
